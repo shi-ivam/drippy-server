@@ -1,0 +1,29 @@
+{
+  "name": "drippy-server",
+  "version": "1.0.0",
+  "description": "",
+  "author": "shi-ivam <rockyshivammm67@gmail.com>",
+  "keywords": [
+    "drippy",
+    "clothes",
+    "flutter",
+    "json"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shi-ivam/drippy-server.git"
+  },
+  "scripts": {
+    "start": "./bin/app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "http-errors": "^1.8.1",
+    "pino": "^7.3.0",
+    "pino-http": "^6.0.0",
+    "pino-pretty": "^7.2.0"
+  }
+}
